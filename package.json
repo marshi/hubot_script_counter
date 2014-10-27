@@ -1,14 +1,14 @@
 {
-  "name": "hubot-command-counter",
+  "name": "hubot-script-counter",
   "version": "1.0.0",
-  "description": "count execution of hubot command.",
+  "description": "count execution of hubot script.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/marshi/hubot_command_counter.git"
+    "url": "https://github.com/marshi/hubot_script_counter.git"
   },
   "keywords": [
     "hubot"
@@ -16,7 +16,7 @@
   "author": "mukai_masaki",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marshi/hubot_command_counter/issues"
+    "url": "https://github.com/marshi/hubot_script_counter/issues"
   },
-  "homepage": "https://github.com/marshi/hubot_command_counter"
+  "homepage": "https://github.com/marshi/hubot_script_counter"
 }
