@@ -12,7 +12,7 @@ module.exports = (robot) ->
   receiveOrg = robot.receive
   robot.receive = (msg) ->
     for listener in robot.listeners
-      if listener.regex.test(msg.text)
+      if listener.regex?test(msg.text)
         script = msg.text?.split(/\s+/)[1]?.trim().toLowerCase()
         key = "script_#{script}"
         if not robot.brain.get(key)

@@ -1,6 +1,6 @@
 {
   "name": "hubot-script-counter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "count execution of hubot script.",
   "main": "index.js",
   "scripts": {
